@@ -1,0 +1,115 @@
+
+body{
+    margin: 0;
+    border: 0;
+    background-color: black;
+    font-family: "Raleway", sans-serif, Arial;
+    color: white;
+
+}
+
+header{
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+
+}
+header h1{
+    width: 221px;
+    padding: 0;
+    border: 0;
+    margin: 0%;
+    font-size: 50px;
+    font-weight: normal;
+}
+.Imagenpp{
+    width: 1280px;
+    height: 727px;
+    top: 73px;
+    padding: 0%;
+}
+
+.contenido{
+    width: 1280px;
+    height: 348px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.contenido img{
+    width: 399px;
+    height: 237px;
+}
+.contenidos{
+    width: 475px;
+    height: 197px;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.caracteristicas{
+    background-color: #2a2219;
+    width: 1280px;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+}
+.caracteristicas h2{
+    font-size: 40px;
+    font-weight: normal;
+    width: 356px;
+    height: 47px;
+}
+.iconos{
+    display: flex;
+    font-size: 24px;
+    height: 56px;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px 0;
+}
+.iconos p{
+    font-size: 24px;
+    white-space: nowrap;
+    margin: 20px 0;
+    font-weight: lighter;
+}
+.galeria{
+    width:1280px;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galeria img{
+    width: 316px;
+    height: 202px;
+    margin: 0 10px;
+}
+.galeria img:hover{
+    box-shadow: 5px 5px 20px rgba(93, 93, 93, 0.5);
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    width:1280px;
+    height: 102px;
+    text-align: center;
+    align-content: center;
+    background-color: #2a2219;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+}
+
+footer:active{
+    color: grey;
+}
